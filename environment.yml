@@ -1,8 +1,12 @@
 ---
+channels:
+  - conda-forge
+  - nodefaults
 dependencies:
   - jupyterlab
   - jupytext
   - numpy
   - pandas
   - plotly
-  - python-kaleido
+platforms:
+  - win-64
